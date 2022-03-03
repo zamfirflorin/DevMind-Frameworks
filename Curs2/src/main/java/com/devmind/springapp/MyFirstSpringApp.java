@@ -21,6 +21,5 @@ public class MyFirstSpringApp {
         System.out.println("Age: " + javaSecondTeacher.getAge());
         System.out.println("Work place: " + javaSecondTeacher.getWorkPlace());
 
-
     }
 }
