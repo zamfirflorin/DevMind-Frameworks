@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Curs1/Curs1.iml" filepath="$PROJECT_DIR$/Curs1/Curs1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs2/Curs2.iml" filepath="$PROJECT_DIR$/Curs2/Curs2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs3-DependencyInjection/Curs3-DependencyInjection.iml" filepath="$PROJECT_DIR$/Curs3-DependencyInjection/Curs3-DependencyInjection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs6-Adnotari/Curs6-Adnotari.iml" filepath="$PROJECT_DIR$/Curs6-Adnotari/Curs6-Adnotari.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DevMind-Frameworks.iml" filepath="$PROJECT_DIR$/.idea/DevMind-Frameworks.iml" />
+    </modules>
+  </component>
+</project>

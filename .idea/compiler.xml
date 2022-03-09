@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Curs2" />
+        <module name="Curs1" />
+        <module name="Curs6-Adnotari" />
+        <module name="Curs3-DependencyInjection" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Curs1" target="1.5" />
+      <module name="Curs2" target="17" />
+      <module name="Curs3-DependencyInjection" target="17" />
+      <module name="Curs6-Adnotari" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
