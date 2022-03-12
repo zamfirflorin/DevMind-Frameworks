@@ -5,12 +5,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
 
-       default-init-method="init"
-       default-destroy-method="destroy"
 >
-
-
-
 
     <bean id="singletonBean"
           class="com.devmind.curs5.MyBean"
@@ -30,11 +25,5 @@
           scope="singleton"
           init-method="performInitialization"
           destroy-method="performDestruction">
-    </bean>
-    <bean id="task"
-          class="com.devmind.tema.Task"
-          scope="prototype"
-          init-method="init"
-          destroy-method="destroy">
     </bean>
 </beans>

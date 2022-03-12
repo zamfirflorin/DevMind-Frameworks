@@ -9,8 +9,6 @@ public class Task {
     private static Integer taskId = 1;
     private Integer executionTime;
 
-    private Random random;
-
     public Task() {
         numberOfTasks++;
     }
@@ -38,7 +36,7 @@ public class Task {
     private void destroy() {
         System.out.println("Numele obiectului distrus este " + this.taskName);
         numberOfTasks--;
-        System.out.println("This method is called at destruction. Use this to free resources.");
+        System.out.println("This method is called at destruction. Task Use this to free resources.");
     }
 
 }

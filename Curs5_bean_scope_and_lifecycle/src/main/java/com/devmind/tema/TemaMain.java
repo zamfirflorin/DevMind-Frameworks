@@ -6,7 +6,7 @@ public class TemaMain {
 
     public static void main(String[] args) {
 
-        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContextTema.xml");
         Task task = context.getBean("task", Task.class);
         Task tas2 = context.getBean("task", Task.class);
 
