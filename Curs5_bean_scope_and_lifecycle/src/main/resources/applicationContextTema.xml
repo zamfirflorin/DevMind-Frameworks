@@ -13,19 +13,10 @@
        default-init-method="init"
        default-destroy-method="destroy"
 >
-    <context:component-scan base-package="com.devmind"/>
+    <context:component-scan base-package="com.devmind.tema"/>
     <aop:aspectj-autoproxy/>
 
     <aop:config>
-        <aop:aspect id="taskAOP" >
-            <aop:pointcut id="pointCutAfter"   expression="execution(* com.devmind.tema.*(..))" />
-        </aop:aspect>
+        <aop:aspect id="aspect" ref="taskAOP"/>
     </aop:config>
-
-    <bean id="task"
-          class="com.devmind.tema.Task"
-          scope="prototype"
-          init-method="init"
-          destroy-method="destroy">
-    </bean>
 </beans>

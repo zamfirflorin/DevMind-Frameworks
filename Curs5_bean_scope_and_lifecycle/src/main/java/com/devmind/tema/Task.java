@@ -1,7 +1,10 @@
 package com.devmind.tema;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Random;
 
+@Component
 public class Task {
 
     static int numberOfTasks = 0;
