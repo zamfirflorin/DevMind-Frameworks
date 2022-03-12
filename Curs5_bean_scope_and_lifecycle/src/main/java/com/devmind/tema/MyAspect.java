@@ -7,7 +7,7 @@ import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
 
 @Aspect
-public class TaskAOP {
+public class MyAspect {
 
     @Pointcut("execution(* run (..))")
     private void run() {}

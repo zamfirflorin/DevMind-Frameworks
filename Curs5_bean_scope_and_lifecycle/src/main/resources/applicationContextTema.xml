@@ -10,17 +10,19 @@
     https://www.springframework.org/schema/context/spring-context.xsd
     http://www.springframework.org/schema/aop
     http://www.springframework.org/schema/aop/spring-aop-3.0.xsd "
-       default-init-method="init"
-       default-destroy-method="destroy"
 >
-    <context:component-scan base-package="com.devmind"/>
+    <context:component-scan base-package="com.devmind.tema"/>
     <aop:aspectj-autoproxy/>
 
     <aop:config>
-        <aop:aspect id="taskAOP" >
+        <aop:aspect id="myaspect" >
             <aop:pointcut id="pointCutAfter"   expression="execution(* com.devmind.tema.*(..))" />
         </aop:aspect>
     </aop:config>
+
+
+    <bean id="myaspect" class="com.devmind.tema.MyAspect">
+    </bean>
 
     <bean id="task"
           class="com.devmind.tema.Task"
@@ -28,4 +30,5 @@
           init-method="init"
           destroy-method="destroy">
     </bean>
+
 </beans>
