@@ -15,8 +15,7 @@
     <aop:aspectj-autoproxy/>
 
     <aop:config>
-        <aop:aspect id="myaspect" >
-            <aop:pointcut id="pointCutAfter"   expression="execution(* com.devmind.tema.*(..))" />
+        <aop:aspect id="myaspect" ref="myaspect">
         </aop:aspect>
     </aop:config>
 
