@@ -2,7 +2,7 @@ package com.devmind.adnotari;
 
 import org.springframework.stereotype.Component;
 
-@Component("ourOwnDevTeacher")
+@Component("webDevTeacher")
 public class WebDevTeacher implements ITeacher {
     @Override
     public String getHomeWork() {
