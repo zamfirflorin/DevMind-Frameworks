@@ -11,7 +11,6 @@ public class MyFirstSpringAnnotationApp {
 
         ITeacher teacher = context.getBean("webDevTeacher", ITeacher.class);
         ITeacher sportTeacher = context.getBean("sportTeacher", ITeacher.class);
-
         System.out.println(teacher.getHomeWork());
         System.out.println(sportTeacher.getHomeWork());
 

@@ -19,6 +19,4 @@ public class CarService {
         automobil.travel();
     }
 
-
-
 }
