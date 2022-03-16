@@ -13,8 +13,6 @@ W
 'Curs7_DI_BeanScope_Lifecycle/.gitignore,3\4\3420e3f26d3e4ff72901ee8874ccdaaad649f9cf
 U
 %Curs7_DI_BeanScope_Lifecycle/mvnw.cmd,3\5\359c6f0676202659e900a398297f21bd3258c354
-Q
-!Curs3-DependencyInjection/pom.xml,e\d\ede28fa8fec4cb3f58e7bfd8117b5a8e6e7e0cd1
 j
 :Curs2/src/main/java/com/devmind/springapp/JavaTeacher.java,e\6\e69d69637f4123d24ff89e29ebb7093b3af38b7f
 g

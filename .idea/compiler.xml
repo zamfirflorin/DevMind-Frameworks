@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Curs5_bean_scope_and_lifecycle" />
         <module name="Curs8" />
+        <module name="Curs9_Maven" />
         <module name="Curs2" />
         <module name="Curs1" />
         <module name="Curs7_DI_BeanScope_Lifecycle" />
@@ -24,6 +25,7 @@
       <module name="Curs6-Adnotari" target="17" />
       <module name="Curs7_DI_BeanScope_Lifecycle" target="17" />
       <module name="Curs8" target="17" />
+      <module name="Curs9_Maven" target="16" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
