@@ -7,10 +7,11 @@ public class TemaMain {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 
-        CarService car = context.getBean("carService", CarService.class);
+        CarService carService = context.getBean("carService", CarService.class);
 
-        car.travel();
-
+        carService.travel();
+        carService.getAutocar().travel();
+        carService.getMotocicleta().travel();
     }
 
 }

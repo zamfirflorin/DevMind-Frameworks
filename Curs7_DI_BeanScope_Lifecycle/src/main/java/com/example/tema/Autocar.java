@@ -10,12 +10,14 @@ import org.springframework.stereotype.Component;
 @Component
 public class Autocar implements Automobil{
 
+
+    //injectare motor prin field
     @Autowired
     Motor motor;
 
     @Override
     public void travel() {
-        System.out.println();
+        System.out.println("Calatorind cu autocarul");
     }
 
     @Override

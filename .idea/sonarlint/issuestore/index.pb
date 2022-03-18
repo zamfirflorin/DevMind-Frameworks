@@ -53,17 +53,5 @@ Q
 Curs8/pom.xml,2\5\251791a49e3acb47375bb6f2b3f4d060f207176d
 k
 ;Curs6-Adnotari/src/main/java/com/devmind/adnotari/Test.java,8\7\87bb488aebe42376f603e00970a79d4beb76eb69
-v
-FCurs7_DI_BeanScope_Lifecycle/src/main/java/com/example/tema/Motor.java,c\4\c476c8c1283ed6d9ad43bddc1fc5cac8bc61996d
-|
-LCurs7_DI_BeanScope_Lifecycle/src/main/java/com/example/tema/Motocicleta.java,d\f\df4a6e70039cb6cede578488eeb8ef35d803ca1d
-x
-HCurs7_DI_BeanScope_Lifecycle/src/main/java/com/example/tema/Autocar.java,8\8\887aa4d842b7479806906c87eae5248162329063
-w
-GCurs7_DI_BeanScope_Lifecycle/src/main/java/com/example/tema/Masina.java,6\7\67cb17c08db0cbf9a007272dbe72f9fa88d4382f
 z
 JCurs7_DI_BeanScope_Lifecycle/src/main/java/com/example/tema/Automobil.java,6\c\6cd8f4832bfce17c643563d4577991415a76605f
-y
-ICurs7_DI_BeanScope_Lifecycle/src/main/java/com/example/tema/TemaMain.java,b\9\b9bcc58d80609d304bed68e5f0a4954cad65fe50
-z
-JCurs7_DI_BeanScope_Lifecycle/src/main/java/com/example/tema/AppConfig.java,7\0\70afa9470d99cac974db2356f2c44c2c6fbb07ff

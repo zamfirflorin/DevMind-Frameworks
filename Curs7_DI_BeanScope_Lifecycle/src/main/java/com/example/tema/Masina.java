@@ -11,6 +11,7 @@ public class Masina implements Automobil{
 
     Motor motor;
 
+    //injectare motor prin constructor
     public Masina(Motor motor) {
         this.motor = motor;
     }

@@ -14,7 +14,7 @@ public class Motocicleta implements Automobil{
 
     @Override
     public void travel() {
-
+        System.out.println("Motocicleta prinde viteza");
     }
 
     @Override
@@ -22,6 +22,8 @@ public class Motocicleta implements Automobil{
         return 320;
     }
 
+
+    //injectare Motor prin setter
     @Autowired
     public void setMotor(Motor motor) {
         this.motor = motor;
