@@ -41,17 +41,11 @@ q
 ACurs5_bean_scope_and_lifecycle/Curs5_bean_scope_and_lifecycle.iml,1\e\1e81f2d9851d96781025c93c7e169046f3e3802a
 f
 6.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_8.xml,b\7\b7d85394b4f5b46e3b833320b17aa7d350951ebb
-­
-}Curs7_DI_BeanScope_Lifecycle/src/main/java/com/example/curs7_di_beanscope_lifecycle/Curs7DiBeanScopeLifecycleApplication.java,7\0\701eb9f302d3c26ca190450ac795cf65148f541e
 ~
 NCurs5_bean_scope_and_lifecycle/src/main/java/com/devmind/tema/Constructor.java,1\6\16c30c2ed1b822fd6cbd9fc67f924dbb4081480a
-˜
-hCurs7_DI_BeanScope_Lifecycle/src/main/java/com/example/curs7_di_beanscope_lifecycle/MyBeanProcessor.java,7\2\7296cd0fd77645f99313acacccff137f4dffcbf7
 Q
 !Curs3-DependencyInjection/pom.xml,e\d\ede28fa8fec4cb3f58e7bfd8117b5a8e6e7e0cd1
 =
 Curs8/pom.xml,2\5\251791a49e3acb47375bb6f2b3f4d060f207176d
 k
 ;Curs6-Adnotari/src/main/java/com/devmind/adnotari/Test.java,8\7\87bb488aebe42376f603e00970a79d4beb76eb69
-z
-JCurs7_DI_BeanScope_Lifecycle/src/main/java/com/example/tema/Automobil.java,6\c\6cd8f4832bfce17c643563d4577991415a76605f

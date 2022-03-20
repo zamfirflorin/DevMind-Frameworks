@@ -13,6 +13,8 @@ public class TemaMain {
         carService.getAutocar().travel();
         carService.getMotocicleta().travel();
 
+
+        //ex 3
         NewCarService newCarService = context.getBean("newCarService", NewCarService.class);
         newCarService.getMasina().travel();
 
