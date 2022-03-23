@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Curs1/Curs1.iml" filepath="$PROJECT_DIR$/Curs1/Curs1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs12_ImplementareMVC/Curs12_ImplementareMVC.iml" filepath="$PROJECT_DIR$/Curs12_ImplementareMVC/Curs12_ImplementareMVC.iml" />
       <module fileurl="file://$PROJECT_DIR$/Curs2/Curs2.iml" filepath="$PROJECT_DIR$/Curs2/Curs2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Curs3-DependencyInjection/Curs3-DependencyInjection.iml" filepath="$PROJECT_DIR$/Curs3-DependencyInjection/Curs3-DependencyInjection.iml" />
       <module fileurl="file://$PROJECT_DIR$/Curs5_bean_scope_and_lifecycle/Curs5_bean_scope_and_lifecycle.iml" filepath="$PROJECT_DIR$/Curs5_bean_scope_and_lifecycle/Curs5_bean_scope_and_lifecycle.iml" />
@@ -11,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/Curs8/Curs8.iml" filepath="$PROJECT_DIR$/Curs8/Curs8.iml" />
       <module fileurl="file://$PROJECT_DIR$/Curs9_Maven/Curs9_Maven.iml" filepath="$PROJECT_DIR$/Curs9_Maven/Curs9_Maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DevMind-Frameworks.iml" filepath="$PROJECT_DIR$/.idea/DevMind-Frameworks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quiz5/Quiz5.iml" filepath="$PROJECT_DIR$/Quiz5/Quiz5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Curs12_ImplementareMVC/spring-mvc.iml" filepath="$PROJECT_DIR$/Curs12_ImplementareMVC/spring-mvc.iml" />
     </modules>
   </component>
 </project>

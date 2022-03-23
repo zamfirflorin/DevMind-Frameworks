@@ -10,9 +10,13 @@ import org.springframework.stereotype.Component;
 @Component
 public class Student {
 
-
     private String lastName;
     private String firstName;
     private double grade;
 
+    public Student(String lastName, String firstName, double grade) {
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.grade = grade;
+    }
 }

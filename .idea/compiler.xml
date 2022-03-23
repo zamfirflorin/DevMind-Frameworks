@@ -9,16 +9,20 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Curs5_bean_scope_and_lifecycle" />
         <module name="Curs8" />
+        <module name="spring-mvc" />
         <module name="Curs9_Maven" />
         <module name="Curs2" />
         <module name="Curs1" />
         <module name="Curs7_DI_BeanScope_Lifecycle" />
         <module name="Curs6-Adnotari" />
+        <module name="Quiz5" />
+        <module name="Curs12_ImplementareMVC" />
         <module name="Curs3-DependencyInjection" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Curs1" target="1.5" />
+      <module name="Curs12_ImplementareMVC" target="17" />
       <module name="Curs2" target="17" />
       <module name="Curs3-DependencyInjection" target="17" />
       <module name="Curs5_bean_scope_and_lifecycle" target="17" />
@@ -26,11 +30,14 @@
       <module name="Curs7_DI_BeanScope_Lifecycle" target="17" />
       <module name="Curs8" target="17" />
       <module name="Curs9_Maven" target="16" />
+      <module name="Quiz5" target="17" />
+      <module name="spring-mvc" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Curs7_DI_BeanScope_Lifecycle" options="-parameters" />
+      <module name="Quiz5" options="-parameters" />
     </option>
   </component>
 </project>

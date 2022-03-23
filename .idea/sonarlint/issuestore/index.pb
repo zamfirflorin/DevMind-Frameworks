@@ -25,8 +25,6 @@ o
 ?Curs6-Adnotari/src/main/java/com/devmind/adnotari/ITeacher.java,c\d\cd4cac8c7b7305cd2c13580525efb4020db85e3e
 z
 JCurs5_bean_scope_and_lifecycle/src/main/java/com/devmind/curs5/MyBean.java,3\3\33c614cc7b9204be4e50c6d6fff7f0d29da99bb3
-T
-$Curs7_DI_BeanScope_Lifecycle/pom.xml,2\8\28127b36531ee94020d44843c044cbbbefd1c11e
 w
 GCurs5_bean_scope_and_lifecycle/src/main/java/com/devmind/tema/Task.java,6\3\636202382637b2e172cc2b7e30f7ba3843436ba5
 {
@@ -45,7 +43,5 @@ f
 NCurs5_bean_scope_and_lifecycle/src/main/java/com/devmind/tema/Constructor.java,1\6\16c30c2ed1b822fd6cbd9fc67f924dbb4081480a
 Q
 !Curs3-DependencyInjection/pom.xml,e\d\ede28fa8fec4cb3f58e7bfd8117b5a8e6e7e0cd1
-=
-Curs8/pom.xml,2\5\251791a49e3acb47375bb6f2b3f4d060f207176d
 k
 ;Curs6-Adnotari/src/main/java/com/devmind/adnotari/Test.java,8\7\87bb488aebe42376f603e00970a79d4beb76eb69
