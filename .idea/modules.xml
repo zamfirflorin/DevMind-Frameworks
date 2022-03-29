@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/Curs9_Maven/Curs9_Maven.iml" filepath="$PROJECT_DIR$/Curs9_Maven/Curs9_Maven.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DevMind-Frameworks.iml" filepath="$PROJECT_DIR$/.idea/DevMind-Frameworks.iml" />
       <module fileurl="file://$PROJECT_DIR$/Quiz5/Quiz5.iml" filepath="$PROJECT_DIR$/Quiz5/Quiz5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/curs13-springboot/curs13-springboot.iml" filepath="$PROJECT_DIR$/curs13-springboot/curs13-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/Curs12_ImplementareMVC/spring-mvc.iml" filepath="$PROJECT_DIR$/Curs12_ImplementareMVC/spring-mvc.iml" />
     </modules>
   </component>

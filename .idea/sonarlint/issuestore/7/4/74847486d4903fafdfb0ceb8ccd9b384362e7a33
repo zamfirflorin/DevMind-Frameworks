@@ -1,0 +1,9 @@
+
+W
+java:S1854"<Remove this useless assignment to local variable "serviceB".(ûÃÇüÿÿÿÿ
+W
+java:S1854"<Remove this useless assignment to local variable "serviceA".(ØÍµ¿ıÿÿÿÿ
+H
+java:S1481"-Remove this unused "serviceA" local variable.(ØÍµ¿ıÿÿÿÿ
+H
+java:S1481"-Remove this unused "serviceB" local variable.(ûÃÇüÿÿÿÿ

@@ -12,6 +12,7 @@
         <module name="spring-mvc" />
         <module name="Curs9_Maven" />
         <module name="Curs2" />
+        <module name="curs13-springboot" />
         <module name="Curs1" />
         <module name="Curs7_DI_BeanScope_Lifecycle" />
         <module name="Curs6-Adnotari" />
@@ -23,6 +24,7 @@
     <bytecodeTargetLevel>
       <module name="Curs1" target="1.5" />
       <module name="Curs12_ImplementareMVC" target="17" />
+      <module name="curs13-springboot" target="14" />
       <module name="Curs2" target="17" />
       <module name="Curs3-DependencyInjection" target="17" />
       <module name="Curs5_bean_scope_and_lifecycle" target="17" />
@@ -38,6 +40,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Curs7_DI_BeanScope_Lifecycle" options="-parameters" />
       <module name="Quiz5" options="-parameters" />
+      <module name="curs13-springboot" options="-parameters" />
     </option>
   </component>
 </project>
