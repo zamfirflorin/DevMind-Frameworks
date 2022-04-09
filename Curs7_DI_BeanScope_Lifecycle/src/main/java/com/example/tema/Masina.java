@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Masina implements Automobil{
 
-    Motor motor;
+    private Motor motor;
 
     //injectare motor prin constructor
     public Masina(Motor motor) {

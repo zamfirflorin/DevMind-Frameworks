@@ -1,5 +1,8 @@
 package com.curs8;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class JavaTeacher implements ITeacher{
     @Override
     public String getHomework() {

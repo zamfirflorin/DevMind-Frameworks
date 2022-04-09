@@ -13,7 +13,7 @@ public class Autocar implements Automobil{
 
     //injectare motor prin field
     @Autowired
-    Motor motor;
+    private Motor motor;
 
     @Override
     public void travel() {
