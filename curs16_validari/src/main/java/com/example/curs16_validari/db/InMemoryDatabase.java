@@ -14,5 +14,6 @@ import java.util.Map;
 public class InMemoryDatabase {
 
     Map<String, User> userTable = new HashMap<>();
+    Map<String, User> authenticatedUsers = new HashMap<>();
 
 }

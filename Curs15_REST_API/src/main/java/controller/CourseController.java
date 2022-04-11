@@ -1,6 +1,6 @@
 package controller;
 
-import model.Curs;
+import model.Message;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -12,16 +12,20 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CourseController {
 
-    @PostMapping(value = "/messages", consumes = MediaType.APPLICATION_JSON_VALUE)
-    private ResponseEntity<Curs> postMessages(
-            @RequestBody Curs curs,
-            @RequestHeader(value = "authentication") String header) {
+    private static final String AUTH = "authentication";
+    private static final String API_KEY = "devmind-api-key";
 
-        if (header.equals("devmind-api-key")) {
-            return new ResponseEntity(curs, HttpStatus.CREATED);
+    @PostMapping(value = "/messages", consumes = MediaType.APPLICATION_JSON_VALUE)
+    private ResponseEntity<Message> postMessages(
+            @RequestBody Message message,
+            @RequestHeader(value = AUTH) String header) {
+
+        if (header.equals(API_KEY)) {
+            return new ResponseEntity(message, HttpStatus.CREATED);
         }
-        return new ResponseEntity(curs, HttpStatus.UNAUTHORIZED);
+        return new ResponseEntity(message, HttpStatus.UNAUTHORIZED);
     }
+
 
 
 }

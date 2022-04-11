@@ -14,8 +14,12 @@ public class UserRepository {
     @Autowired
     private InMemoryDatabase inMemoryDatabase;
 
-    public void save(User user) {
+    public User save(User user) {
+        return inMemoryDatabase.getUserTable().put(user.getEmail(), user);
+    }
 
+    public User authenticate(User user) {
+        return inMemoryDatabase.getAuthenticatedUsers().put(user.getEmail(), user);
     }
 
 }

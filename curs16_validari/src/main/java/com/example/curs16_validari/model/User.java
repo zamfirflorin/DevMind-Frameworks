@@ -11,8 +11,6 @@ import javax.validation.constraints.Pattern;
 @Setter
 public class User {
 
-
-    private Long id;
     @NotNull(message = "firstName must be  not-null")
     @NotBlank(message = "firstName must be a non-empty string")
     private String firstName;
