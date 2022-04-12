@@ -18,7 +18,7 @@
     <p>email address: </p>
     <input type="text" name="emailAddress"><br>
     <p>phone number: </p>
-    <input type="text" mame="phoneNumber"><br>
+    <input type="text" name="phoneNumber"><br>
     <p>birth date: </p>
     <input type="date" name="birthDate"><br>
     <input type="submit" value="Login">
