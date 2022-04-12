@@ -14,6 +14,9 @@ import java.util.Locale;
 @Controller
 public class HomeController {
 
+    public HomeController() {
+    }
+
     @RequestMapping(value ="/", method = RequestMethod.GET)
     public String home(Locale locale, Model model) {
         System.out.println("Home page requested, locale = " + locale);
@@ -24,7 +27,7 @@ public class HomeController {
         return "home";
     }
 
-    @RequestMapping(value = "/user", method = RequestMethod.POST)
+    @RequestMapping(value = "/user", method = RequestMethod.GET)
     public String user(@Validated User user, Model model) {
         System.out.println("User Page Requested");
         model.addAttribute("userName", user.getUserName());
@@ -34,7 +37,7 @@ public class HomeController {
         return "user";
     }
 
-    @RequestMapping(value = "/about", method = RequestMethod.POST)
+    @RequestMapping(value = "/about", method = RequestMethod.GET)
     public String about(@Validated User user, Model model) {
         System.out.println("My Page Requested");
         return "about";
