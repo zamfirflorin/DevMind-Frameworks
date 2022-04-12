@@ -53,8 +53,6 @@ T
 $Curs7_DI_BeanScope_Lifecycle/pom.xml,2\8\28127b36531ee94020d44843c044cbbbefd1c11e
 a
 1Curs12_ImplementareMVC/dependency-reduced-pom.xml,9\e\9e9eb847babcd1895911bcef0256d22a522634fb
-N
-Curs12_ImplementareMVC/pom.xml,e\b\eb9f27916f28780abe972ddb8ba831927d912461
 †
 V.idea/libraries/Maven__jakarta_servlet_jsp_jstl_jakarta_servlet_jsp_jstl_api_1_2_4.xml,b\0\b0438456dfe50735bc38307becabe4cb426e27a0
 p
@@ -65,8 +63,6 @@ t
 D.idea/libraries/Maven__jakarta_servlet_jakarta_servlet_api_4_0_2.xml,2\c\2c63cfbf3e72fa35c241de1602fcafb2426cb3d9
 q
 A.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_9_0_12.xml,a\9\a9513dcdebf723f873952541e8652f099a795940
-f
-6Curs12_ImplementareMVC/src/main/webapp/WEB-INF/web.xml,6\5\653c4f549693d69c22f99ee6f8dd95008e373e90
 t
 D.idea/libraries/Maven__org_apache_tomcat_tomcat_jasper_el_9_0_12.xml,4\1\4150b605afffc9c8701c41a43482b619c7a099c5
 a
@@ -95,8 +91,6 @@ K.idea/libraries/Maven__org_glassfish_web_jakarta_servlet_jsp_jstl_1_2_6.xml,e\
 ..idea/artifacts/Curs12_ImplementareMVC_war.xml,e\0\e0a97cab767f4a7be666567fe1d0fa48e84032d1
 p
 @.idea/libraries/Maven__org_springframework_spring_aop_5_3_17.xml,e\2\e20286cd7a6271c1dbe412d368404ea46392547c
-n
->Curs12_ImplementareMVC/src/main/webapp/WEB-INF/views/about.jsp,1\5\15bd93153bf931cb73db8760f51ffa0d045ab49d
 [
 +.idea/artifacts/spring_mvc_war_exploded.xml,1\2\1230cd91e5650f073035a6a244ac4abd21078dbc
 t
@@ -111,8 +105,6 @@ g
 7.idea/artifacts/Curs12_ImplementareMVC_war_exploded.xml,5\a\5a2bcb84fbb4ce479be8ee4fa135d4eea5946121
 r
 B.idea/libraries/Maven__org_springframework_spring_beans_5_3_17.xml,2\8\28701d5c8d48ee66730124ac52861d7bd3f3bdd4
-q
-ACurs12_ImplementareMVC/src/main/webapp/WEB-INF/spring-servlet.xml,1\a\1aff19e0d22e626e1531da441ddcc6d9b39b57c0
 t
 D.idea/libraries/Maven__org_springframework_spring_context_5_3_17.xml,5\5\557b8b193b27d9a68170e4c2a7add86f4e549079
 s
@@ -121,18 +113,6 @@ p
 @.idea/libraries/Maven__org_springframework_spring_jcl_5_3_17.xml,b\f\bfdac0b3f4df40a6c7e5af082afd59efd10cd1ef
 p
 @.idea/libraries/Maven__org_springframework_spring_web_5_3_17.xml,7\6\7603efc4c4bf855d2b2b55ff51d48f5f9e21dd60
-k
-;Curs12_ImplementareMVC/src/main/webapp/META-INF/MANIFEST.MF,a\d\ad2de8dc2a0437f06d40ca21e6f2ed53f17ffcf6
-k
-;Curs12_ImplementareMVC/src/main/webapp/META-INF/context.xml,e\f\efef66fda91477f2cbe3a16e05049acbf14fbf13
-m
-=Curs12_ImplementareMVC/src/main/webapp/WEB-INF/views/home.jsp,3\c\3c8613ab415fd1afd723c6ea5adf1c8192a3f441
-m
-=Curs12_ImplementareMVC/src/main/java/devmind/curs12/User.java,a\6\a6c1a6008ca595438afcc36b48bf5fede3117821
-m
-=Curs12_ImplementareMVC/src/main/webapp/WEB-INF/views/user.jsp,c\3\c3c6a0f974392519638b0d600aa4411090630a55
-w
-GCurs12_ImplementareMVC/src/main/java/devmind/curs12/HomeController.java,7\5\7568cd3acbf7d6b01cec2692408c162bc6676409
 o
 ?.idea/libraries/Maven__com_github_javafaker_javafaker_1_0_2.xml,2\0\204c14972709a8b00a5d39684b8d5e75d8e723ac
 j

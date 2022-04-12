@@ -13,9 +13,13 @@
 
 <%--	acesta este un action form care inregistreaza un user name--%>
 <form action="user" method="post">
+    <p>user name : </p>
     <input type="text" name="userName"><br>
+    <p>email address: </p>
     <input type="text" name="emailAddress"><br>
+    <p>phone number: </p>
     <input type="text" mame="phoneNumber"><br>
+    <p>birth date: </p>
     <input type="date" name="birthDate"><br>
     <input type="submit" value="Login">
 </form>
