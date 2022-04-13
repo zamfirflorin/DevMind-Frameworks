@@ -1,5 +1,7 @@
 package devmind.curs12;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import java.util.Date;
 
 public class User {
@@ -7,6 +9,7 @@ public class User {
     private String userName;
     private String emailAddress;
     private String phoneNumber;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date birthDate;
 
     public String getUserName() {
