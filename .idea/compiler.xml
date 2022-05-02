@@ -13,6 +13,7 @@
         <module name="Quiz5" />
         <module name="Curs12_ImplementareMVC" />
         <module name="curs16_validari" />
+        <module name="Curs19_Asocieri in java" />
         <module name="Curs3-DependencyInjection" />
         <module name="Curs5_bean_scope_and_lifecycle" />
         <module name="Curs2" />
@@ -29,6 +30,7 @@
       <module name="curs13-springboot" target="14" />
       <module name="Curs15_REST_API" target="17" />
       <module name="curs16_validari" target="11" />
+      <module name="Curs19_Asocieri in java" target="17" />
       <module name="Curs2" target="17" />
       <module name="Curs3-DependencyInjection" target="17" />
       <module name="Curs5_bean_scope_and_lifecycle" target="17" />
@@ -43,6 +45,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Curs15_REST_API" options="-parameters" />
+      <module name="Curs19_Asocieri in java" options="-parameters" />
       <module name="Curs7_DI_BeanScope_Lifecycle" options="-parameters" />
       <module name="Quiz5" options="-parameters" />
       <module name="curs13-springboot" options="-parameters" />

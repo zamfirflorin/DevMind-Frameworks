@@ -213,8 +213,6 @@ J.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_6_6.xml,9\2
 Q.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_6_6.xml,8\b\8b0899d5ed53b14d8804d5ccbb511a6b0bc66c1c
 „
 T.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_6_6.xml,d\4\d4c11926072e0a04708fdc676ed157e8df789ff4
-S
-#Curs15_REST_API/Curs15_REST_API.iml,6\8\68b84726ee107c1d9fe6c5e436b32b7e11f3ffa0
 ‚
 R.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_6_6.xml,2\5\25f9dbd982222be5736ae1788c96ccb17c543ce5
 t
@@ -271,3 +269,5 @@ ICurs7_DI_BeanScope_Lifecycle/src/main/java/com/example/tema/TemaMain.java,b\9\
 fCurs7_DI_BeanScope_Lifecycle/src/main/java/com/example/curs7_di_beanscope_lifecycle/WebDevTeacher.java,1\0\1097642f2f588e5d7012a23a26737789c619d690
 œ
 lCurs7_DI_BeanScope_Lifecycle/src/main/java/com/example/curs7_di_beanscope_lifecycle/TipsAndTrickService.java,3\c\3c8271fd867c6b699c99825b52959bfb349849aa
+S
+#Curs15_REST_API/Curs15_REST_API.iml,6\8\68b84726ee107c1d9fe6c5e436b32b7e11f3ffa0
