@@ -3,10 +3,8 @@
     <output-path>$PROJECT_DIR$/Curs12_ImplementareMVC/target</output-path>
     <properties id="maven-jee-properties">
       <options>
-        <exploded>false</exploded>
         <module>spring-mvc</module>
         <packaging>war</packaging>
-        <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
     <root id="archive" name="spring-mvc-1.0-SNAPSHOT.war">
