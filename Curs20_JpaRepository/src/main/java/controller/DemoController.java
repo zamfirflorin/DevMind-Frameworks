@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(path = "/demo")
+@RequestMapping("/demo")
 public class DemoController {
     private final StudentRepository studentRepository;
 
@@ -18,12 +18,12 @@ public class DemoController {
         this.studentRepository = studentRepository;
     }
 
-    @GetMapping(path = "/student/all")
+    @GetMapping(value = "/student/all")
     public @ResponseBody Iterable<Student> getStudents() {
         return studentRepository.findAll();
     }
 
-    @GetMapping(path = "/student")
+    @GetMapping("/student")
     public @ResponseBody Optional<Student> getStudentByNumeAndPrenume(@RequestParam(name = "nume") String nume, @RequestParam(name = "prenume", required = false) String prenume) {
         if (prenume == null) {
             return studentRepository.findByNume(nume);
@@ -31,7 +31,7 @@ public class DemoController {
         return studentRepository.findByNumeAndPrenume(nume, prenume);
     }
 
-    @GetMapping(path = "/student/localitate")
+    @GetMapping( "/student/localitate")
     public @ResponseBody
     List<Optional<Student>> getStudentByNumeAndLocalitate(@RequestParam(name = "nume") String nume, @RequestParam(name = "localitate") String localitate) {
         return studentRepository.findByNumeAndLocalitate(nume, localitate);
