@@ -58,6 +58,7 @@ public class HomeController {
     public String harryPotter() {
         return harryPotter.getName();
     }
+
     @PostMapping(value="/math-service")
     public String harryPotter(@RequestBody MathServiceDto mathServiceDto) {
         return "result: " + mathService.getResult(mathServiceDto);

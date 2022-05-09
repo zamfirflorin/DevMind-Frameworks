@@ -1,14 +1,18 @@
-package domain;
+package com.domain;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.Data;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.Objects;
 import java.util.Set;
 
 @Entity
-@Data
+@Getter
+@Builder
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "student")
 public class Student {
 
@@ -26,18 +30,19 @@ public class Student {
     @Column(name = "CNP")
     private String cnp;
 
-    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
+    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(
             name = "studenti_to_materii",
             joinColumns = @JoinColumn(name = "id_student"),
             inverseJoinColumns = @JoinColumn(name = "id_materie"))
+    @JsonManagedReference
     private Set<Materie> cursuriAlese;
 
-    @OneToMany(mappedBy = "student")
-    @JsonIgnore
+    @OneToMany(mappedBy = "student", cascade = CascadeType.ALL)
+    @JsonManagedReference
     private Set<StudentiToMaterie> inscrieri;
 
-    @OneToOne
+    @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "id_adresa")
     private Adresa adresa;
 

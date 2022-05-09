@@ -1,9 +1,9 @@
-package repository;
+package com.repository;
 
-import domain.Catalog;
+import com.domain.Adresa;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface CatalogRepository extends JpaRepository<Catalog, Long> {
+public interface AdresaRepository extends JpaRepository<Adresa, Integer> {
 }

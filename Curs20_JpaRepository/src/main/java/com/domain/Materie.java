@@ -1,18 +1,21 @@
-package domain;
+package com.domain;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.util.Objects;
 import java.util.Set;
 
-@Data
 @Entity
-@NoArgsConstructor
-@Table(name = "adresa")
-public class Adresa {
+@Table(name = "materii")
+@Getter
+@Setter
+public class Materie {
 
     @Id
     @Column(name = "id")
@@ -22,29 +25,25 @@ public class Adresa {
     @Column(name = "nume")
     private String nume;
 
-    @ManyToMany(mappedBy = "cursuriAlese", fetch = FetchType.LAZY)
-    @JsonIgnore
-    private Set<Student> studentiInrolati;
-
-    @OneToMany(mappedBy = "materie")
-    @JsonIgnore
-    private Set<StudentiToMaterie> inscrieri;
-
     @ManyToOne
     @JoinColumn(name = "id_profesor")
-    private Profesor profesor;
+    @JsonBackReference
+    public Profesor profesor;
 
+//    @ManyToMany(mappedBy = "cursuriAlese")
+//    @JsonManagedReference
+//    public Set<Student> studentiInrolati;
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Materie materie = (Materie) o;
-        return id.equals(materie.getId()) && nume.equals(materie.getNume());
+        return id.equals(materie.id) && nume.equals(materie.nume);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nume);
+        return Objects.hash(id, nume, profesor);
     }
 }

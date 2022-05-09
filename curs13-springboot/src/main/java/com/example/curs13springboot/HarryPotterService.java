@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 public class HarryPotterService {
 
     private static final String SEP = " ";
-    Faker faker = new Faker();
+    private Faker faker = new Faker();
 
     public String getName() {
         return faker.harryPotter().character();

@@ -1,15 +1,15 @@
-package controller;
+package com.controller;
 
-import domain.Student;
+import com.domain.Student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import repository.StudentRepository;
+import com.repository.StudentRepository;
 
 import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/demo")
+@RequestMapping("/api/demo")
 public class DemoController {
     private final StudentRepository studentRepository;
 

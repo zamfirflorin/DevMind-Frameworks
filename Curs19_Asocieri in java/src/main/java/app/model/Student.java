@@ -25,11 +25,13 @@ public class Student {
     @JoinColumn(name = "id_adresa")
     private Adresa adresa;
 
-    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
-    @JoinTable(
-            name = "studenti_to_materii",
-            joinColumns = @JoinColumn(name = "id_student"),
-            inverseJoinColumns = @JoinColumn(name = "id_materie"))
-    public Set<Materie> cursuriAlese;
+//    @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.PERSIST)
+//    @JoinTable(
+//            name = "studenti_to_materii",
+//            joinColumns = @JoinColumn(name = "id_student"),
+//            inverseJoinColumns = @JoinColumn(name = "id_materie"))
+//    public Set<Materie> cursuriAlese;
+
+
 
 }
